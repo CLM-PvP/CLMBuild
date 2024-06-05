@@ -1,0 +1,13 @@
+name: CLMBuild
+version: '1.0'
+main: de.clmpvp.clmbuild.Main
+commands:
+  tc:
+  teamchat:
+  ec:
+  enderchest:
+  kopf:
+  fly:
+  matti:
+  v:
+  vanish:
