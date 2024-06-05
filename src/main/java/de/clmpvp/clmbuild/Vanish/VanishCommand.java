@@ -29,7 +29,7 @@ public class VanishCommand implements CommandExecutor {
         }
         if (sender instanceof Player) {
             Player player = (Player)sender;
-            if (player.hasPermission("ghostsys.vanish")) {
+            if (player.hasPermission("clmbuild.vanish")) {
                 if (manager.isVanished(player)) {
                     manager.setVanished(player, false);
                     sender.sendMessage(Main.prefix + "Du bist jetzt nicht mehr im Vanish");
