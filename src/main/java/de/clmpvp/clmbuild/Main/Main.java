@@ -1,4 +1,4 @@
-package de.clmpvp.clmbuild;
+package de.clmpvp.clmbuild.Main;
 
 import de.clmpvp.clmbuild.Commands.*;
 import de.clmpvp.clmbuild.Listeners.ChatListener;
@@ -36,6 +36,9 @@ public class Main extends JavaPlugin {
         getCommand("matti").setExecutor(new Matti());
         getCommand("v").setExecutor(new VanishCommand());
         getCommand("vanish").setExecutor(new VanishCommand());
+        getCommand("perks").setExecutor(new Perks(this));
+        getCommand("luckyblock").setExecutor(new Luckyblock(this));
+        getCommand("ban").setExecutor(new Ban(this));
 
         //Listener
         PluginManager pm = Bukkit.getPluginManager();

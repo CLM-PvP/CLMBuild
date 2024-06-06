@@ -3,10 +3,9 @@ package de.clmpvp.clmbuild.Vanish;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.clmpvp.clmbuild.Main;
+import de.clmpvp.clmbuild.Main.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
-import org.bukkit.plugin.Plugin;
 
 public class Manager {
     private final Main plugin;

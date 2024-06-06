@@ -1,6 +1,6 @@
 package de.clmpvp.clmbuild.Commands;
 
-import de.clmpvp.clmbuild.Main;
+import de.clmpvp.clmbuild.Main.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

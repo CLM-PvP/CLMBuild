@@ -1,6 +1,6 @@
 name: CLMBuild
 version: '1.0'
-main: de.clmpvp.clmbuild.Main
+main: de.clmpvp.clmbuild.Main.Main
 commands:
   tc:
   teamchat:
@@ -11,3 +11,6 @@ commands:
   matti:
   v:
   vanish:
+  perks:
+  luckyblock:
+  ban:

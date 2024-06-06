@@ -1,6 +1,6 @@
 package de.clmpvp.clmbuild.Commands;
 
-import de.clmpvp.clmbuild.Main;
+import de.clmpvp.clmbuild.Main.Main;
 import org.bukkit.Material;
 import org.bukkit.Sound;
 import org.bukkit.command.Command;

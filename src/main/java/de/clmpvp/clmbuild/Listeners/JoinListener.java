@@ -1,6 +1,6 @@
 package de.clmpvp.clmbuild.Listeners;
 
-import de.clmpvp.clmbuild.Main;
+import de.clmpvp.clmbuild.Main.Main;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
